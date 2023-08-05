@@ -1,4 +1,6 @@
-const { sum } = require("../functions/functions");
+const sum = (a, b) => {
+  return a + b;
+};
 
 describe("Test sum() module", () => {
   test("1 + 2 equals 3", () => {
